@@ -5,12 +5,16 @@ body {
 }
 
 .top-container {
-    background-color: rgb(18, 110, 130);
+    background-color: rgb(18, 110, 130, 0.5);
+    border-top: 30px;
     height: 80px;
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     margin-left: 0;
     margin-right: 0;
     text-decoration: none;}
+
+    
 
 .menu {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -61,7 +65,7 @@ a {
     float: left;
     width: 70%;
     padding: 10px;
-    height: 800px;
+    height: 900px;
     border-radius: 50px;
   }
   
@@ -112,37 +116,6 @@ a {
   .fa-linkedin {
     background: #007bb5;
     color: white;
-  }
-
-  .carlendar img {
-    vertical-align: middle;
-  }
-  
-  .carlendar, p {
-    display: inline;
-    margin-left: 10px;
-  }
-
-  .Location image {
-    vertical-align: middle;
-  }
-  
-  .email image {
-    vertical-align: middle;
-  }
-
-  .email, p {
-    display: inline;
-    margin-left: 10px;
-  }
-
-  .phone image {
-    vertical-align: middle;
-  }
-
-  .phone, p {
-    display: inline;
-    margin-left: 20px;
   }
 
   button {
