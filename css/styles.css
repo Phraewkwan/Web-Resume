@@ -10,11 +10,7 @@ body {
     margin-top: 0px;
     margin-left: 0;
     margin-right: 0;
-    text-decoration: none;
-    
-    
-    
-}
+    text-decoration: none;}
 
 .menu {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -35,13 +31,133 @@ body {
 
 a {
     color: rgb(48, 48, 48);
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 10px;    
 }
 
 
 .bottom-container {
-    margin-top: 30px;
-    
+    margin-top: 10px;   
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;;
 }
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.col-left {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 800px;
+    border-radius: 50px;
+  }
+
+  .col-right {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 800px;
+    border-radius: 50px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  /*My detail left */
+ .bottom-containe, row, col-left, Name {
+     text-align: center;
+ }
+
+ .career-position {
+     background-color: rgb(209, 209, 209);
+     border-radius: 50px;
+     padding: 15px ;
+     width: 200px;
+     
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }  
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .carlendar img {
+    vertical-align: middle;
+  }
+  
+  .carlendar, p {
+    display: inline;
+    margin-left: 10px;
+  }
+
+  .Location image {
+    vertical-align: middle;
+  }
+  
+  .email image {
+    vertical-align: middle;
+  }
+
+  .email, p {
+    display: inline;
+    margin-left: 10px;
+  }
+
+  .phone image {
+    vertical-align: middle;
+  }
+
+  .phone, p {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  button {
+    background-color: #1b59dd; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+
+
